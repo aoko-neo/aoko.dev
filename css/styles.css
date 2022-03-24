@@ -1,0 +1,118 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%
+}
+h1{
+  color: #66bfbf;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin-top: 50px;
+}
+h2{
+  color:#66bfbf;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3{
+  color: #11999E;
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+}
+.top-container{
+  background-color: #EAF6F6;
+  position:relative;
+  padding: 100px;
+}
+
+.top-cloud{
+  position: absolute;
+  right:200px;
+  top:80px;
+}
+.bottom-cloud{
+  position: absolute;
+  left:100px;
+}
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.faith{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.web{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+.web2{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.middle-container{
+  background-color: #FFFFF6;
+  padding: 100px 0;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  height: 100px;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+a{
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+p{
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  font-size: 13px;
+  color: #40514E;
+  line-height: 2;
+
+}
+hr{
+  width: 5%;
+  border-top: 3px dotted grey;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.btn{
+  background: #34d9d9;
+  background-image: linear-gradient(top, #34d9d9, #5c2bb8);
+  background-image: linear-gradient(to bottom, #34d9d9, #5c2bb8);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 8px 20px 8px 20px;
+  text-decoration: none;
+  margin: 70px auto;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: linear-gradient(top, #3cb0fd, #d934d3);
+  background-image: linear-gradient(to bottom, #3cb0fd, #d934d3);
+  text-decoration: none;
+}
